@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Опрос</title>
+	<style type="text/css">
+		body {
+			background-color: #008080;
+		}
+		.form{
+			background-color: white;
+			width: 1000px;
+			height: 800px;
+			position: relative;
+			margin:0 auto;
+			font-size: 18px	;
+		}
+
+		.text{
+			position: relative;
+			text-align: right;
+			right: 30%;
+			height: 25px;
+			font-size: 22px;
+		}
+
+		input{
+			font-size: 18px;
+		}
+
+
+		.list{
+			width: 150px;
+			font-size: 18px;
+		}
+
+		.first_text{
+			position: relative;
+			text-align: center;
+			font-style: italic;
+			font-size: 27px;
+		}
+
+		textarea{
+			vertical-align: top; 
+			width: 220px; 
+			height: 100px;
+			font-size: 18px;
+		}
+
+		button{
+			font-size: 18px;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+
+	<h1 style="font-size: 40px;" align="center">Использование мобильного устройства</h1><br>
+	
+	<div class="form">
+		<p class="first_text">Сбор статистики удовлетворенности пользования <br> мобильными устройствами</p>
+		<p class="text">Имя &nbsp; <input type="text" name="userName" size="18" /></p>
+
+		<p class="text">Почта &nbsp; <input type="text" name="userName" size="18" /></p>
+
+		<p class="text">Производитель телефона &nbsp; 
+		<select class="list">
+			<option>Apple</option>
+			<option>Samsung</option>
+			<option>Xiaomi</option>
+			<option>Huawei</option>
+			<option>Meizu</option>
+			<option>Sony</option>
+		</select></p>
+
+		<p class="text">Срок эксплуатации телефона &nbsp; <input type="number" name="userName" size="5" style="width: 50px;"/></p>
+
+		<p class="text">Удовлетворены ли вы использованием <br>телефона? &nbsp; 
+		<select class="list">
+			<option>Да</option>
+			<option>Скорее да, чем нет</option>
+			<option>Скорее нет, чем да</option>
+			<option>Нет</option>
+		</select></p><br>
+
+		<p class="text" style="vertical-align: top">Напишите функции, которых вам не хватает&nbsp; <textarea></textarea></p><br><br><br>
+
+
+		<p class="text" style="vertical-align: top">Коммментарии к опросу&nbsp; <textarea></textarea></p>
+
+
+		<p style= "position: relative; bottom: -150px;" align="center"><button>Отправить</button></p>
+		
+
+	</div>
+
+</body>
+</html>
